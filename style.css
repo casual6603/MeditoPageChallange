@@ -1,0 +1,518 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body{
+    background-color: #16213E;
+
+}
+p { 
+    font-size: 20px; 
+} 
+
+
+
+
+
+
+button:hover{background-color:#888888;}
+
+button:focus {
+    background-color: #16213E;
+    color: black;
+}
+
+
+a {
+    color: orange;
+}
+
+a.button{
+    color:green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: blue;
+}
+
+
+
+h1 {
+    color: blue;
+}
+
+.base-text{
+    font-family: 'Inter', sans-serif;
+    color: #E94560;
+    margin: auto;
+}
+.base-title{
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+}
+
+.raised {
+    color: #E94560;
+    margin-left: 40px; ;
+    margin-top: 20px;
+    font-size: 5vw;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+}
+.donated {
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    color: #E94560;
+    float: right; 
+    margin-right: 10px;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  /* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+
+.header {   
+    color: #E94560;
+    font-size: 8vw;
+    text-align: left;
+    margin: 40px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 95%;
+    border-radius: 190px;
+    display: flex;
+    justify-content: center;  /* Add this line to center horizontally */
+}
+
+.skill {
+    background-color: #E94560;
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 60%;
+
+
+}
+
+
+.container {
+    margin: auto;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #8b8b8b;
+    height: 58px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;  /* Add this line */
+    border-radius: 190px ;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #E94560;
+    width: 50%;  /* Move the width property here */
+}
+
+.divider {
+    border-bottom: 2px solid #ffffff; /* Adjust color and thickness as needed */
+    margin-inline: 40%;
+    border-radius: 190px;
+    
+}
+
+.textarea {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+.tier_boxes {
+    width: 19vw;
+    height: 19vw;
+    background-color: #021627;
+    opacity: 80%;
+    display: inline-block;
+    border-color: #E94560;
+    border-width: 4px;
+    border-style: solid;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 25px;
+    box-sizing: border-box; /* Apply box-sizing to the border properties as well */
+    border-radius: 10px;
+
+
+}
+
+.tier-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    color: #E94560;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.tier-text{
+    font-family: 'inter', sans-serif;
+    font-size: 100vw;
+    color: #E94560;
+    text-align: center;
+    margin-top: -10px;
+}
+.tier-rewards{
+    font-family: 'inter', sans-serif;
+    font-size: 20;
+    color: #E94560;
+    text-align: left;
+    margin-left: 10px;
+}
+.tier-text{
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    color: #E94560;
+    text-align: center;
+    margin: 15px;
+}
+.input{
+    font-family: 'inter', sans-serif;
+    font-size: 30;
+    color: #E94560;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.payment{
+    background-color: #021627;
+    width: 90vw;
+    height: 45vw;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 30px;
+    display: flex;
+}
+
+.left-side{
+    float: left;
+    height: 500px;
+    width: 48%;
+    border-top-left-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+.right-side{
+    float: right;
+    height: 500px;
+    width: 48%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.horizontal-divider {
+    height: 300px;
+    width: 1px;
+    background-color: white; /* Use background-color instead of fill */
+    margin: 0 auto;
+    margin-top: 10vw ;
+    display: block; /* Ensure the div is a block-level element */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.donation-ammounts{
+    border-radius: 10px;
+    border-color: #E94560;
+    border-width: 3px;
+    height: 10%;
+    width: 20%;
+    background-color: black;
+    margin:1%;
+    margin-left: 20px;
+}
+.donation-button{
+    background-color: #E94560;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+
+.article-wrapper{
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
+    margin-top: 25px;
+
+
+
+}
+
+*, *::before, *::after {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.accordion {
+    max-width: 80vw;
+    text-align: left;
+}
+article {
+    padding: 1em;
+    margin: 10px;
+    background-color: #021627;
+    border-radius: 10px;
+    
+}
+
+input[type=radio] {
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+    position: fixed;
+    top: -100vh;
+    left: -100vh;
+
+}
+input[type=radio] ~ div {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+
+}
+input[type=radio]:checked ~ div {
+    max-height: 200px;
+    backdrop-filter: blur(5px);
+
+    
+}
+
+
+.typo, .list a {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #585858;
+    text-decoration: none;
+    
+}
+.typo option, .list a option {
+    font-size: 30px;
+}
+
+.transition {
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.wrapper {
+    font-size:20px;
+    text-align: left;
+    margin-left: 20px;
+    color: #E94560;
+    
+}
+
+
+.list {
+    display: inline-block;
+    position: absolute;
+    margin-left: 6px;
+}
+.list ul {
+    text-align: left;
+    position: relative;
+    padding: 100px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    display: none;
+    font-size: 10px;
+    backdrop-filter: blur(5px);
+}
+.list ul .active {
+    display: block;
+}
+.list li {
+    list-style: none;
+}
+.list li:first-child a {
+    color: #7d40bf;
+    font-size: 3vw;
+    backdrop-filter: blur(5px);
+
+}
+.list a {
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    color: #7b00ff;
+    position: relative;
+    font-size: 3vw;
+}
+.list a:after {
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 0;
+    left: 0;
+    background: #b066ff;
+    bottom: 0;
+    -webkit-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+    backdrop-filter: blur(5px);
+    font-size: 3vw;
+}
+.list a:hover {
+    cursor: pointer;
+    color: #b066ff;
+}
+.list a:hover:after {
+    width: 100%;
+}
+
+select {
+    display: inline;
+    border: 0;
+    width: auto;
+    margin-left: 10px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-bottom: 2px solid #555;
+    color: #d9d9d9;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
+select:hover {
+    cursor: pointer;
+
+}
+select option {
+    border: 0;
+    border-bottom: 1px solid #555;
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.placeholder {
+    border-bottom: 4px solid;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+
+}
+.placeholder:hover {
+    color: #888888;
+}
+.donation-box{
+    margin-left:0px;
+
+
+}
+
+@media (max-width: 1000px) {
+    /* Adjust the height for smaller screens */
+    .horizontal-divider {
+        height: 0;
+        width: 0; /* You can set a different height for smaller screens */
+    }
+    .payment {
+        height: 350vw;
+        flex-direction: column;
+
+    }
+    .left-side{
+        width: 95%
+    }
+    .right-side {
+        width:  95%;
+    }
+    .donation-ammounts {
+        margin-left: 3%;
+        height: auto;
+
+    }
+    .tier_boxes {
+        width: 90%;
+        height: auto;
+        margin: 7%;
+    }
+    .divider{
+        width: 0;
+        height: 0;
+    }
+    .donated{
+        float: left;
+        padding-left: 8%;
+    }
+    .base-title{
+        text-align: center;
+    }
+    .donation-button{
+        width: 90%;
+        margin: 0 auto;
+        margin-right: 10px;
+        
+    }
+
+    .input{
+        width: 90%;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    ::placeholder {
+        text-align: center; 
+     }
+}
+
+ 
